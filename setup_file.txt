@@ -2,11 +2,18 @@ sudo apt update
 sudo apt install build-essential gcc make perl dkms
 reboot
 
+sudo ./VBoxLinuxAdditions.run
+reboot
+
+sudo apt install python3-pip
+
 pip3 install jupyterlab
 jupyter-lab
 
-
 pip3 install notebook
+#sudo apt install jupyter-core
+python3 -m notebook
+
 jupyter notebook
 
 sudo apt install git-all
