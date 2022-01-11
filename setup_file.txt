@@ -1,0 +1,12 @@
+sudo apt update
+sudo apt install build-essential gcc make perl dkms
+reboot
+
+pip3 install jupyterlab
+jupyter-lab
+
+
+pip3 install notebook
+jupyter notebook
+
+sudo apt install git-all
